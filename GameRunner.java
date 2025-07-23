@@ -1,0 +1,165 @@
+class GameRunner
+{
+ public static void main(String args[])
+ {
+     Game game = new Game();
+     game.setTitle("Elden Ring");
+     System.out.println(game.getTitle());
+     game.setPrice(3999.0f);
+     System.out.println(game.getPrice());
+     game.setGameId(101);
+     System.out.println(game.getGameId());
+     game.setGenre("Action RPG");
+     System.out.println(game.getGenre());
+     game.setRating(9.8f);
+     System.out.println(game.getRating());
+     game.setPlatform("PC");
+     System.out.println(game.getPlatform());
+     game.setDiscount(10.0f);
+     System.out.println(game.getDiscount());
+
+     Game game1 = new Game();
+     game1.setTitle("Minecraft");
+     System.out.println(game1.getTitle());
+     game1.setPrice(1499.0f);
+     System.out.println(game1.getPrice());
+     game1.setGameId(102);
+     System.out.println(game1.getGameId());
+     game1.setGenre("Sandbox");
+     System.out.println(game1.getGenre());
+     game1.setRating(9.5f);
+     System.out.println(game1.getRating());
+     game1.setPlatform("All Platforms");
+     System.out.println(game1.getPlatform());
+     game1.setDiscount(5.0f);
+     System.out.println(game1.getDiscount());
+
+     Game game2 = new Game();
+     game2.setTitle("FIFA 24");
+     System.out.println(game2.getTitle());
+     game2.setPrice(2999.0f);
+     System.out.println(game2.getPrice());
+     game2.setGameId(103);
+     System.out.println(game2.getGameId());
+     game2.setGenre("Sports");
+     System.out.println(game2.getGenre());
+     game2.setRating(8.6f);
+     System.out.println(game2.getRating());
+     game2.setPlatform("PS5");
+     System.out.println(game2.getPlatform());
+     game2.setDiscount(12.5f);
+     System.out.println(game2.getDiscount());
+
+     Game game3 = new Game();
+     game3.setTitle("Cyberpunk 2077");
+     System.out.println(game3.getTitle());
+     game3.setPrice(1999.0f);
+     System.out.println(game3.getPrice());
+     game3.setGameId(104);
+     System.out.println(game3.getGameId());
+     game3.setGenre("Sci-Fi RPG");
+     System.out.println(game3.getGenre());
+     game3.setRating(8.9f);
+     System.out.println(game3.getRating());
+     game3.setPlatform("PC");
+     System.out.println(game3.getPlatform());
+     game3.setDiscount(15.0f);
+     System.out.println(game3.getDiscount());
+
+     Game game4 = new Game();
+     game4.setTitle("Among Us");
+     System.out.println(game4.getTitle());
+     game4.setPrice(299.0f);
+     System.out.println(game4.getPrice());
+     game4.setGameId(105);
+     System.out.println(game4.getGameId());
+     game4.setGenre("Social Deduction");
+     System.out.println(game4.getGenre());
+     game4.setRating(7.5f);
+     System.out.println(game4.getRating());
+     game4.setPlatform("Mobile");
+     System.out.println(game4.getPlatform());
+     game4.setDiscount(20.0f);
+     System.out.println(game4.getDiscount());
+
+     Game game5 = new Game();
+     game5.setTitle("Call of Duty: Warzone");
+     System.out.println(game5.getTitle());
+     game5.setPrice(0.0f);
+     System.out.println(game5.getPrice());
+     game5.setGameId(106);
+     System.out.println(game5.getGameId());
+     game5.setGenre("Battle Royale");
+     System.out.println(game5.getGenre());
+     game5.setRating(8.0f);
+     System.out.println(game5.getRating());
+     game5.setPlatform("Xbox");
+     System.out.println(game5.getPlatform());
+     game5.setDiscount(0.0f);
+     System.out.println(game5.getDiscount());
+
+     Game game6 = new Game();
+     game6.setTitle("The Witcher 3");
+     System.out.println(game6.getTitle());
+     game6.setPrice(1299.0f);
+     System.out.println(game6.getPrice());
+     game6.setGameId(107);
+     System.out.println(game6.getGameId());
+     game6.setGenre("Fantasy RPG");
+     System.out.println(game6.getGenre());
+     game6.setRating(9.7f);
+     System.out.println(game6.getRating());
+     game6.setPlatform("PC");
+     System.out.println(game6.getPlatform());
+     game6.setDiscount(30.0f);
+     System.out.println(game6.getDiscount());
+
+     Game game7 = new Game();
+     game7.setTitle("Clash of Clans");
+     System.out.println(game7.getTitle());
+     game7.setPrice(0.0f);
+     System.out.println(game7.getPrice());
+     game7.setGameId(108);
+     System.out.println(game7.getGameId());
+     game7.setGenre("Strategy");
+     System.out.println(game7.getGenre());
+     game7.setRating(8.2f);
+     System.out.println(game7.getRating());
+     game7.setPlatform("Mobile");
+     System.out.println(game7.getPlatform());
+     game7.setDiscount(0.0f);
+     System.out.println(game7.getDiscount());
+
+     Game game8 = new Game();
+     game8.setTitle("God of War Ragnarok");
+     System.out.println(game8.getTitle());
+     game8.setPrice(4999.0f);
+     System.out.println(game8.getPrice());
+     game8.setGameId(109);
+     System.out.println(game8.getGameId());
+     game8.setGenre("Adventure");
+     System.out.println(game8.getGenre());
+     game8.setRating(9.9f);
+     System.out.println(game8.getRating());
+     game8.setPlatform("PS5");
+     System.out.println(game8.getPlatform());
+     game8.setDiscount(10.0f);
+     System.out.println(game8.getDiscount());
+
+     Game game9 = new Game();
+     game9.setTitle("PUBG Mobile");
+     System.out.println(game9.getTitle());
+     game9.setPrice(0.0f);
+     System.out.println(game9.getPrice());
+     game9.setGameId(110);
+     System.out.println(game9.getGameId());
+     game9.setGenre("Battle Royale");
+     System.out.println(game9.getGenre());
+     game9.setRating(8.4f);
+     System.out.println(game9.getRating());
+     game9.setPlatform("Mobile");
+     System.out.println(game9.getPlatform());
+     game9.setDiscount(0.0f);
+     System.out.println(game9.getDiscount());
+ }
+}
