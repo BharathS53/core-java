@@ -1,37 +1,26 @@
-public class Bike {
-        static String name="NS";
-        static float price=20000;
-        static String company="Bajaj";
-        static float mileage=34.1f;
-        static String colour="Black";
-    public static void main(String []args){
-       String Name=nameOfBike(); 
-       float Price=priceOfBike();
-       String Company=companyOfBike();
-       float Mileage=mileageOfBike();
-       String Colour=colourOfBike();
-    
-       System.out.println(Name);
-       System.out.println(Price);
-       System.out.println(Company);
-       System.out.println(Mileage);
-       System.out.println(Colour);
-       
+package com.xorkz.inheritance;
+
+public class Bike extends Vehicle
+{
+    private int engineCC;
+    private String type;
+
+    public void setEngineCC(int engineCC)
+    {
+        this.engineCC = engineCC;
     }
-    public static String nameOfBike(){
-        return name;
+    public int getEngineCC()
+    {
+        return engineCC;
     }
-    public static float priceOfBike(){
-        return price;
+
+    public void setType(String type)
+    {
+        this.type = type;
     }
-    public static String companyOfBike(){
-        return company;
+    public String getType()
+    {
+        return type;
     }
-    public static float mileageOfBike(){
-        return mileage;
-    }
-    public static String colourOfBike(){
-        return colour;
-    }
-    
 }
+

@@ -1,31 +1,26 @@
-public class Car {
-    static String name="breeza";
-    static String brand="suzuki";
-    static float mileage=15;
-    static String colour="red";
+package com.xorkz.inheritance;
 
-    public static void main(String[] args) {
-        String Name=nameOfCar();
-        String Brand=nameOfBrand();
-        float Mileage=mileageOfCar();
-        String Colour=colourOfCar();  
-        System.out.println(Name);
-        System.out.println(Brand);
-        System.out.println(Mileage);
-        System.out.println(Colour);
+public class Car extends Vehicle
+{
+    private int seatingCapacity;
+    private String fuelType;
+
+    public void setSeatingCapacity(int seatingCapacity)
+    {
+        this.seatingCapacity = seatingCapacity;
     }
-    
-    public static String nameOfCar(){
-        return name;
+    public int getSeatingCapacity()
+    {
+        return seatingCapacity;
     }
-    public static String nameOfBrand(){
-        return brand;
+
+    public void setFuelType(String fuelType)
+    {
+        this.fuelType = fuelType;
     }
-    public static float mileageOfCar(){
-        return mileage;
+    public String getFuelType()
+    {
+        return fuelType;
     }
-    public static String colourOfCar(){
-        return colour;
-    }
-    
 }
+
